@@ -1,4 +1,6 @@
-\documentclass[$if(fontsize)$$fontsize$,$endif$$if(handout)$handout,$endif$$if(beamer)$ignorenonframetext,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
+\documentclass[xcolor=x11names,compress,$if(fontsize)$$fontsize$,$endif$$if(handout)$handout,$endif$$if(beamer)$ignorenonframetext,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
+\useoutertheme[subsection=false,shadow]{miniframes}
+\setbeamerfont{headline}{size=\footnotesize}
 $if(theme)$
 \usetheme{$theme$}
 $endif$
@@ -30,6 +32,7 @@ $endif$
 \definecolor{bistre}{rgb}{0.24, 0.17, 0.12}
 \definecolor{babyblue}{rgb}{0.54, 0.81, 0.94}
 \definecolor{champagne}{rgb}{0.97, 0.91, 0.81}
+\definecolor{indianred}{RGB}{205,92,92}
 \newcommand{\E}{\mathbb{E}}
 \newcommand{\V}{\mathbb{V}}
 \newcommand{\au}{\underline{a}}
@@ -83,10 +86,10 @@ $endif$
 \def\endcol{\end{column}}
 
 %sets beamer colors
-\setbeamercolor{frametitle}{fg=backgroundblack}
+\setbeamercolor{frametitle}{fg=indianred}
 \setbeamercolor*{background canvas}{bg=champagne}
 \setbeamertemplate{navigation symbols}{}
-\setbeamercolor{title}{fg=backgroundblack}
+\setbeamercolor{title}{fg=indianred}
 
 \usepackage{tikz}
 \usetikzlibrary{arrows,positioning,shapes}
