@@ -6,6 +6,7 @@ author:
 affiliation: Harvard University
 email: smazumder@g.harvard.edu
 output:
+  tufte::tufte_html: default
   pdf_document:
     latex_engine: xelatex
     template: xelatex.template
@@ -34,3 +35,4 @@ library(data.table)
 ## Contents
 \tableofcontents
 
+$\indep$
