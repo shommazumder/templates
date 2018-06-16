@@ -8,7 +8,7 @@ author:
 output:
   pdf_document:
     latex_engine: xelatex
-    template: xelatex.template
+    template: tufte.template
     fig_caption: TRUE
   tufte::tufte_html: default
 ---
