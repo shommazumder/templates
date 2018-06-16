@@ -163,7 +163,7 @@ $endif$
             bookmarksnumbered,
             backref,
             pagebackref,
-            pdfauthor={Shiro Kuriwaki}}
+            pdfauthor={Shom Mazumder}}
 
 $if(title)$
 \maketitle
