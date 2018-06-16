@@ -1,2 +1,5 @@
 #Dropbox
 .DS_Store
+
+#R Studio
+.Rhistory
