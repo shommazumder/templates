@@ -3,8 +3,8 @@ title: 'Notes Template'
 date: Last updated \today
 author:
   - name: Shom Mazumder
-  - affiliation: Harvard University
-  - email: smazumder@g.harvard.edu
+    affiliation: Harvard University
+    email: smazumder@g.harvard.edu
 output:
   pdf_document:
     latex_engine: xelatex
