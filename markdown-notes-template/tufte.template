@@ -1,6 +1,5 @@
-\documentclass{tufte-book}
+\documentclass{tufte-handout}
 
-\usepackage[margin=1.4in]{geometry}
 \usepackage{tikz}
 \usetikzlibrary{arrows,positioning}
 \usepackage[reqno]{amsmath}
@@ -76,7 +75,7 @@
 
 \newcommand{\real}{\mathbb{R}}
 \newcommand{\mb}{\mathbf}
-\renewcommand{\bs}{\boldsymbol}
+%\renewcommand{\bs}{\boldsymbol}
 \renewcommand{\u}{\ensuremath{\mb{u}}}
 \renewcommand{\v}{\ensuremath{\mb{v}}}
 %\renewcommand{\U}{\ensuremath{\mb{U}}}
