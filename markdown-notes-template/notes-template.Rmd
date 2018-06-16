@@ -1,0 +1,36 @@
+---
+title: 'Notes Template'
+date: Last updated \today
+author:
+  - name: Shom Mazumder
+affiliation: Harvard University
+email: smazumder@g.harvard.edu
+output:
+  pdf_document:
+    latex_engine: xelatex
+    template: xelatex.template
+    fig_caption: TRUE
+---
+  
+  
+  
+```{r, include = FALSE}
+library(tidyverse)
+library(haven)
+library(scales)
+library(ggrepel)
+library(stargazer)
+library(data.table)
+```
+
+
+\footnotesize{\noindent (INSERT PRELIMINARY NOTES TO PREFACE DOCUMENT)}
+
+\normalsize
+
+# Overview
+
+
+## Contents
+\tableofcontents
+
