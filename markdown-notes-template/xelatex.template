@@ -137,7 +137,7 @@ $endfor$
 \usepackage{amsmath,amssymb}
 
 $if(title)$
-\title{$title$}
+\title{$title$\thanks{$thanks$}}
 $endif$ 
 
 

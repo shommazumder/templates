@@ -5,6 +5,7 @@ author:
   - name: Shom Mazumder
     affiliation: Harvard University
     email: smazumder@g.harvard.edu
+thanks: 
 output:
   pdf_document:
     latex_engine: xelatex
