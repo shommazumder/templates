@@ -90,6 +90,8 @@ $endif$
 \setbeamercolor*{background canvas}{bg=champagne}
 \setbeamertemplate{navigation symbols}{}
 \setbeamercolor{title}{fg=indianred}
+\setbeamercolor{itemize item}{fg=dodgerblue}
+\setbeamercolor{itemize subitem}{fg=dodgerblue}
 
 \usepackage{tikz}
 \usetikzlibrary{arrows,positioning,shapes}
