@@ -93,6 +93,10 @@ $endif$
 \setbeamercolor{itemize item}{fg=dodgerblue}
 \setbeamercolor{itemize subitem}{fg=dodgerblue}
 
+%tables
+\usepackage{booktabs}
+
+
 \usepackage{tikz}
 \usetikzlibrary{arrows,positioning,shapes}
 \usepackage{ifxetex,ifluatex}
