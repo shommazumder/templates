@@ -27,6 +27,7 @@ $endif$
 \usepackage{dcolumn}
 \newcolumntype{d}[1]{D{.}{.}{#1}}
 \usepackage{amssymb,amsmath}
+\usepackage{bbm}
 \definecolor{dodgerblue}{RGB}{52,152,219}
 \definecolor{backgroundblack}{RGB}{34,34,34}
 \definecolor{bistre}{rgb}{0.24, 0.17, 0.12}
@@ -92,6 +93,8 @@ $endif$
 \setbeamercolor{title}{fg=indianred}
 \setbeamercolor{itemize item}{fg=dodgerblue}
 \setbeamercolor{itemize subitem}{fg=dodgerblue}
+\setbeamercolor{enumerate item}{fg=dodgerblue}
+\setbeamercolor{enumerate subitem}{fg=dodgerblue}
 
 %tables
 \usepackage{booktabs}
@@ -224,7 +227,7 @@ $if(subtitle)$
 \subtitle{$subtitle$}
 $endif$
 $if(author)$
-\author{$for(author)$$author.name$$sep$ \and $endfor$}
+\author{$for(author)$\normalsize $author.name$\vspace{0.05in} \newline\normalsize{$author.affiliation$} \newline\normalsize $author.email$ $sep$ \and $endfor$}
 $endif$
 $if(date)$
 \date{$date$}
