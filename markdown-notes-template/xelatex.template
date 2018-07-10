@@ -3,7 +3,7 @@
 \usepackage{org-preamble-xelatex}
 \usepackage[margin=1.4in]{geometry}
 \usepackage{tikz}
-\usetikzlibrary{arrows,positioning}
+\usetikzlibrary{arrows,positioning,trees}
 \usepackage[reqno]{amsmath}
 \usepackage{amssymb,enumerate}
 \usepackage{lmodern}
