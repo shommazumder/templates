@@ -12,6 +12,7 @@
 \usepackage{booktabs}
 \usepackage{hyperref}
 \usepackage{float}
+\usepackage{setspace}
 
 
 % Theorems
