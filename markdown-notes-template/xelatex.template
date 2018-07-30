@@ -12,8 +12,8 @@
 \usepackage{booktabs}
 \usepackage{hyperref}
 \usepackage{float}
+\DisemulatePackage{setspace}
 \usepackage{setspace}
-
 
 % Theorems
 \usepackage{amsthm}
