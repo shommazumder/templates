@@ -17,13 +17,17 @@ output:
   
   
   
-```{r, include = FALSE}
+```{r setup, include = FALSE}
 library(tidyverse)
 library(haven)
 library(scales)
 library(ggrepel)
 library(stargazer)
 library(data.table)
+
+#knitr options
+opts_knit$set(root.dir = "")
+opts_chunk$set(echo = FALSE,message = FALSE,warning = FALSE)
 ```
 
 
