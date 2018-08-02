@@ -24,6 +24,7 @@ library(scales)
 library(ggrepel)
 library(stargazer)
 library(data.table)
+library(knitr)
 
 #knitr options
 opts_knit$set(root.dir = "")
