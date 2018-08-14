@@ -1,0 +1,36 @@
+---
+address:
+- STREET AND NUMBER
+- CITY STATE
+author:
+- Soumyajit Mazumder
+- Harvard University
+blockquote: no
+closing: Sincerely,
+closing-indentation: 0pt
+colorlinks: yes
+encl:
+- Enclosure 1
+- Enclosure 2
+fontsize: 12pt
+geometry: margin=1in
+#letterhead: letterhead.pdf
+#links-as-notes: no
+opening: To whom it may concern,
+#ps: |
+#  PS Lorem ipsum dolor sit amet, *consectetur* adipiscing elit.
+return-address:
+- Soumyajit Mazumder
+- 1737 Cambridge Street
+- Cambridge, MA
+#signature: signature.pdf
+signature-after: 0ex
+signature-before: -8ex
+output:
+  pdf_document:
+    latex_engine: xelatex
+    template: template-letter.tex
+    keep_tex: FALSE
+---
+
+Hello world.
