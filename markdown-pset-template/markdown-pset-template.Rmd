@@ -1,0 +1,35 @@
+---
+title: 'Problem Set'
+date: Last updated \today
+author:
+- name: INSERT NAME HERE
+  affiliation: INSERT DEPARTMENT HERE
+  email: INSERT EMAIL HERE
+output:
+  pdf_document:
+    latex_engine: xelatex
+    template: xelatex.template
+    fig_caption: TRUE
+---
+
+
+
+```{r, include = FALSE}
+library(tidyverse)
+library(haven)
+library(scales)
+library(ggrepel)
+library(stargazer)
+library(data.table)
+library(knitr)
+
+opts_knit$set(root.dir = "~/Dropbox/Utils/Latex/templates/markdown-pset-template/") #put working directory here
+```
+
+
+\footnotesize{\noindent (INSERT NOTES HERE)}
+
+\normalsize
+
+## Contents
+\tableofcontents
