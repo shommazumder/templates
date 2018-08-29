@@ -95,7 +95,7 @@ $endif$
 \setbeamercolor{itemize subitem}{fg=dodgerblue}
 \setbeamercolor{enumerate item}{fg=dodgerblue}
 \setbeamercolor{enumerate subitem}{fg=dodgerblue}
-\setbeamercolor{button}{bg=dodgerblue,fg=indianred}
+\setbeamercolor{button}{fg=indianred}
 
 
 %tables
